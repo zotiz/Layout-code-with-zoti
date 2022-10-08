@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  border-bottom: 4px solid red;
+  /* border-right: 6px solid red; */
+  border-top: 4px solid red;
+  box-shadow: 0 0 15px gray;
+  border-radius: 10px;;
+  padding: 15px;
+  color:rgb(201, 73, 73);
+  background-color: white;
+
+}
+li:hover {
+  border-radius: 40px;
+  transition: 0.8s;
+}
+a:active {
+  color:rgb(53, 3, 254);
+}
+a {
+  color:rgb(201, 73, 73);
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: left;
+  margin: 24px;
+  border-bottom: 4px solid red;
+  /* border-right: 6px solid red; */
+  border-top: 4px solid red;
+  box-shadow: 0 0 15px gray;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 15px;
+  color:rgb(201, 73, 73);
+  background-color: white;
+  font-weight: 500;
+}
+h1:hover {
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.9s;
+}
+
+header {
+  border-top: 10px groove red;
+  border-bottom: 10px groove red;
+  box-shadow: 0 0 15px solid rgb(71, 69, 69);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+aside {
+  width: 23%;
+  height:500px;
+  background-color: white;
+  box-shadow: 0 0 20px solid rgb(247, 4, 4);
+  float: left;
+  margin-top: 30px;
+  margin-right: 12px;
+  border-left: 10px groove red;
+  border-right: 10px groove red;
+  border-radius:10px;
+
+}
+section {
+  width: 75%;
+  height: 500px;
+  margin:30px auto;
+  box-shadow: 0 0 40px solid rgb(255, 0, 0);;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  float: right;
+}
+#section-top-border {
+  width: 100%;
+  height:0.3px;
+  border: 6px solid red;
+  border-radius: 50px;
+  position: absolute;
+  top:0;
+  left: 50%;
+  transform: translate(-50%);
+}
+#section-bottom-border {
+  width: 100%;
+  height:0.3px;
+  border: 6px solid red;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+footer {
+  width: 100%;
+  height: 75px;
+  border-top: 10px groove red;
+  border-bottom: 10px groove red;
+  color:rgb(201, 73, 73);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
